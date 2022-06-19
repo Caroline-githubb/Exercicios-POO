@@ -3,14 +3,28 @@ namespace _02_CalculoIdade
     public class Pessoa
     {   
         public int anoNascimento;
-        private string nome;
+
+        private int idade; //variavel do tipo inteiro privada
+
+        private string nome = string.Empty;
+
+        public Pessoa(string nome, int anoNascimento)
+        {
+            this.Nome = nome;
+            this.AnoNascimento = anoNascimento;
+            this.CalcularIdade();
+        }
         public string Nome
         {
             get { return nome; }
             set { nome = value; }
         }        
 
-        private int idade; //variavel do tipo inteiro privada
+        public int AnoNascimento
+        {
+            get { return this.anoNascimento;}
+            set {this.anoNascimento = value;}
+        }
         public int Idade //criei uma propriedade do tipo inteiro publico para interagir com a variavel
         {
             get 
