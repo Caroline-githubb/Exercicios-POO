@@ -2,6 +2,7 @@ namespace _06_Pokedex
 {
     public class Pokemon
     {
+        //Construtor
         public Pokemon()
         {
             this.Nome = string.Empty;
@@ -13,7 +14,8 @@ namespace _06_Pokedex
             this.Nome = nome;
             this.Descricao = descricao;
         }
-        //Propriedades
+
+        //Propriedades e Atributos
         private string nome;
         public string Nome
         {
@@ -25,7 +27,7 @@ namespace _06_Pokedex
             }
         }
         private string descricao; //armazena o valor da propriedade Descricao
-        public string Descricao //represta a caracteristica Descricao do meu pokemon
+        public string Descricao //representa a caracteristica Descricao do meu pokemon
         {
             get { return this.descricao; }
             set { this.descricao = value.ToUpper(); }
@@ -35,7 +37,7 @@ namespace _06_Pokedex
         public void ExibirDadosPokemon()
         {
             Console.WriteLine("Nome do Pokemon: " + this.Nome);
-            Console.WriteLine("Descrição do Pokemon: " + this.Nome);
+            Console.WriteLine("Descrição do Pokemon: " + this.Descricao);
         }
 
         public void ExibirDadosPokemon(bool formatado) //sobrecarga de metodo

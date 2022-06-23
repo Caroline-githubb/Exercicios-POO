@@ -14,45 +14,45 @@
             Console.WriteLine("Controle de animais");
 
             Console.Write("Informe o nome do 1º animal: ");
-            a1.Nome = Console.ReadLine();
+            a1.Nome = Console.ReadLine() ?? string.Empty;
             Console.Write("Informe o tipo do 1º animal(Cachorro, Gato ou Peixe): ");
-            a1.Tipo = Console.ReadLine();
+            a1.Tipo = Console.ReadLine() ?? string.Empty;
             if (a1.Tipo == "Cachorro") tlCachorro++;
             if (a1.Tipo == "Gato") tlGato++;
             if (a1.Tipo == "Peixe") tlPexe++;
 
             Console.WriteLine("Controle de animais");
             Console.Write("Informe o nome do 2º animal: ");
-            a2.Nome = Console.ReadLine();
+            a2.Nome = Console.ReadLine() ?? string.Empty;
             Console.Write("Informe o tipo do 2º animal(Cachorro, Gato ou Peixe): ");
-            a2.Tipo = Console.ReadLine();
+            a2.Tipo = Console.ReadLine() ?? string.Empty;
             if (a2.Tipo == "Cachorro") tlCachorro++;
             if (a2.Tipo == "Gato") tlGato++;
             if (a2.Tipo == "Peixe") tlPexe++;
 
             Console.WriteLine("Controle de animais");
             Console.Write("Informe o nome do 3º animal: ");
-            a3.Nome = Console.ReadLine();
+            a3.Nome = Console.ReadLine() ?? string.Empty;
             Console.Write("Informe o tipo do 3º animal(Cachorro, Gato ou Peixe): ");
-            a3.Tipo = Console.ReadLine();
+            a3.Tipo = Console.ReadLine() ?? string.Empty;
             if (a3.Tipo == "Cachorro") tlCachorro++;
             if (a3.Tipo == "Gato") tlGato++;
             if (a3.Tipo == "Peixe") tlPexe++;
 
             Console.WriteLine("Controle de animais");
             Console.Write("Informe o nome do 4º animal: ");
-            a4.Nome = Console.ReadLine();
+            a4.Nome = Console.ReadLine() ?? string.Empty;
             Console.Write("Informe o tipo do 4º animal(Cachorro, Gato ou Peixe): ");
-            a4.Tipo = Console.ReadLine();
+            a4.Tipo = Console.ReadLine() ?? string.Empty;
             if (a4.Tipo == "Cachorro") tlCachorro++;
             if (a4.Tipo == "Gato") tlGato++;
             if (a4.Tipo == "Peixe") tlPexe++;
 
             Console.WriteLine("Controle de animais");
             Console.Write("Informe o nome do 5º animal: ");
-            a5.Nome = Console.ReadLine();
+            a5.Nome = Console.ReadLine() ?? string.Empty;
             Console.Write("Informe o tipo do 5º animal(Cachorro, Gato ou Peixe): ");
-            a5.Tipo = Console.ReadLine();
+            a5.Tipo = Console.ReadLine() ?? string.Empty;
             if (a5.Tipo == "Cachorro") tlCachorro++;
             if (a5.Tipo == "Gato") tlGato++;
             if (a5.Tipo == "Peixe") tlPexe++;          
