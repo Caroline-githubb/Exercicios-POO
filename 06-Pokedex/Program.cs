@@ -5,7 +5,7 @@
         static void Main(string [] args)
         {       
             MenuPokedex menu = new MenuPokedex();
-            menu.ExibirMenu();        
+            menu.ExibirMenu();     
             
             
             Console.Clear();

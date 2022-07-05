@@ -35,9 +35,10 @@ namespace _06_Pokedex
 
         //Metodos 
         public void ExibirDadosPokemon()
-        {
+        {            
             Console.WriteLine("Nome do Pokemon: " + this.Nome);
-            Console.WriteLine("Descrição do Pokemon: " + this.Descricao);
+            Console.WriteLine("Descrição do Pokemon: " + this.Descricao);  
+            Console.WriteLine();          
         }
 
         public void ExibirDadosPokemon(bool formatado) //sobrecarga de metodo
